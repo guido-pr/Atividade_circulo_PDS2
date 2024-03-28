@@ -24,7 +24,7 @@ int main(){
     printf("\nDigite o raio r do segundo circulo: ");
     scanf("%f", &r2);
 
-    Circulo circulo1 = circ_cria(x1, y1, r1); 
+    Circulo circulo1 = circ_cria(x1, y1, r1); //Cria circulos com as coordenadas e raios escolhidos pelo usuário
     Circulo circulo2 = circ_cria(x2, y2, r2);
 
     printf("\nArea do primeiro circulo: %.2f", circ_area(&circulo1));

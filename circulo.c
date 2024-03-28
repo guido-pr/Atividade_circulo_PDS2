@@ -5,7 +5,7 @@
 
 
 Circulo circ_cria(float x, float y, float r){
-    Circulo *c = malloc (sizeof(Circulo));
+    Circulo *c = malloc (sizeof(Circulo)); //Aloca dinamicamente o espaço de memória em que o circulo irá ocupar
     c->x = x;
     c->y = y;
     c->r = r;
@@ -17,7 +17,7 @@ void circ_libera(Circulo *c){
 }
 
 float circ_area(Circulo *c){
-    float area = 3.14 * pow(c->r, 2);
+    float area = 3.14159 * pow(c->r, 2);
     return area; //Retorna a area do circulo
 };
 
